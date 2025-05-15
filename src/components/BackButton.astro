@@ -1,8 +1,7 @@
 ---
-import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
-import { Image } from "astro:assets";
+import { ChevronLeft } from '@lucide/astro';
 ---
 
 {
@@ -13,7 +12,7 @@ import { Image } from "astro:assets";
         href="/"
         class="focus-outline mt-8 mb-2 flex hover:text-foreground/75"
       >
-        <Image src={IconChevronLeft} alt="" class="inline-block size-6" />
+        <ChevronLeft class="inline-block" size={20} />
         <span>Go back</span>
       </LinkButton>
     </div>

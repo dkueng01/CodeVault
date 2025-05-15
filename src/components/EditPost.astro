@@ -1,8 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import IconEdit from "@/assets/icons/IconEdit.svg";
 import { SITE } from "@/config";
-import { Image } from "astro:assets";
+import { Pencil } from '@lucide/astro';
 
 export interface Props {
   hideEditPost?: CollectionEntry<"blog">["data"]["hideEditPost"];
@@ -29,7 +28,7 @@ const showEditPost =
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Image src={IconEdit} alt="" class="inline-block size-6" />
+        <Pencil class="inline-block" size={20} />
         <span class="italic max-sm:text-sm sm:inline">
           {SITE.editPost.text}
         </span>

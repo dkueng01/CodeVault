@@ -8,11 +8,10 @@ import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
-import IconRss from "@/assets/icons/IconRss.svg";
-import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
-import { Image } from "astro:assets";
+import { Rss } from '@lucide/astro';
+import { MoveRight } from '@lucide/astro';
 
 const posts = await getCollection("blog");
 
@@ -35,13 +34,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         aria-label="rss feed"
         title="RSS Feed"
       >
-        <Image
-          src={IconRss}
-          alt=""
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3"
-        />
+        <Rss size={20} class="scale-125 stroke-accent stroke-3" />
         <span class="sr-only">RSS Feed</span>
       </a>
 
@@ -96,7 +89,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
         All Posts
-        <Image src={IconArrowRight} alt="" class="inline-block" />
+        <MoveRight class="inline-block" />
       </LinkButton>
     </div>
   </main>

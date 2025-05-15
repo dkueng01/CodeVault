@@ -1,14 +1,8 @@
 ---
 import Hr from "./Hr.astro";
-import { Image } from "astro:assets";
-import IconX from "@/assets/icons/IconX.svg";
-import IconMoon from "@/assets/icons/IconMoon.svg";
-import IconSearch from "@/assets/icons/IconSearch.svg";
-import IconArchive from "@/assets/icons/IconArchive.svg";
-import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
-import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
+import { X, Menu, Archive, Search, Moon, Sun } from '@lucide/astro';
 
 const { pathname } = Astro.url;
 
@@ -57,8 +51,8 @@ const isActive = (path: string) => {
           aria-expanded="false"
           aria-controls="menu-items"
         >
-          <Image src={IconX} alt="Close" id="close-icon" class="hidden" />
-          <Image src={IconMenuDeep} alt="" id="menu-icon" />
+          <X id="close-icon" class="hidden" />
+          <Menu id="menu-icon" />
         </button>
         <ul
           id="menu-items"
@@ -98,7 +92,7 @@ const isActive = (path: string) => {
                   ariaLabel="archives"
                   title="Archives"
                 >
-                  <Image src={IconArchive} alt="Archive" class="hidden sm:inline-block" />
+                  <Archive class="hidden sm:inline-block" />
                   <span class="sm:sr-only">Archives</span>
                 </LinkButton>
               </li>
@@ -114,7 +108,7 @@ const isActive = (path: string) => {
               ariaLabel="search"
               title="Search"
             >
-              <Image src={IconSearch} alt="Search" />
+              <Search />
               <span class="sr-only">Search</span>
             </LinkButton>
           </li>
@@ -128,8 +122,8 @@ const isActive = (path: string) => {
                   aria-label="auto"
                   aria-live="polite"
                 >
-                  <Image src={IconMoon} alt="Moon" class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                  <Image src={IconSunHigh} alt="SunHigh" class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+                  <Moon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+                  <Sun class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
                 </button>
               </li>
             )
