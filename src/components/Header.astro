@@ -1,5 +1,6 @@
 ---
 import Hr from "./Hr.astro";
+import { Image } from "astro:assets";
 import IconX from "@/assets/icons/IconX.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
@@ -56,7 +57,7 @@ const isActive = (path: string) => {
           aria-expanded="false"
           aria-controls="menu-items"
         >
-          <IconX id="close-icon" class="hidden" />
+          <Image src={IconX} alt="Close" id="close-icon" class="hidden" />
           <IconMenuDeep id="menu-icon" />
         </button>
         <ul
