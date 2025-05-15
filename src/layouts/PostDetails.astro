@@ -13,6 +13,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
+import { Image } from "astro:assets";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -122,7 +123,7 @@ const nextPost =
         id="back-to-top"
         class="focus-outline py-1 whitespace-nowrap hover:opacity-75"
       >
-        <IconChevronLeft class="inline-block rotate-90" />
+        <Image src={IconChevronLeft} alt="" class="inline-block rotate-90" />
         <span>Back to Top</span>
       </button>
     </div>
@@ -137,7 +138,7 @@ const nextPost =
             href={`/posts/${prevPost.slug}`}
             class="flex w-full gap-1 hover:opacity-75"
           >
-            <IconChevronLeft class="inline-block flex-none" />
+            <Image src={IconChevronLeft} alt="" class="inline-block flex-none" />
             <div>
               <span>Previous Post</span>
               <div class="text-sm text-accent/85">{prevPost.title}</div>
