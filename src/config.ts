@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Suggest Changes",
-    url: "https://github.com/dkueng01/CodeVault/",
+    url: "https://github.com/dkueng01/CodeVault/tree/master/",
   },
   dynamicOgImage: true,
   lang: "en",
