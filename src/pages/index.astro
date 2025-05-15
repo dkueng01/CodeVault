@@ -12,6 +12,7 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
+import { Image } from "astro:assets";
 
 const posts = await getCollection("blog");
 
@@ -34,7 +35,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         aria-label="rss feed"
         title="RSS Feed"
       >
-        <IconRss
+        <Image
+          src={IconRss}
+          alt=""
           width={20}
           height={20}
           class="scale-125 stroke-accent stroke-3"
@@ -93,7 +96,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
         All Posts
-        <IconArrowRight class="inline-block" />
+        <Image src={IconArrowRight} alt="" class="inline-block" />
       </LinkButton>
     </div>
   </main>
