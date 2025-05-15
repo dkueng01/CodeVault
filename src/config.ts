@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://TODO.dev/", // replace this with your deployed domain
+  website: "https://code-vault-orpin.vercel.app/",
   author: "David Küng",
   profile: "https://bento.me/davidkueng",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
