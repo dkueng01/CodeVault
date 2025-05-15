@@ -8,7 +8,6 @@ draft: false
 tags:
   - WebSockets
   - React
-  - TypeScript
 description: How to implement a Websocket in React
 ---
 
