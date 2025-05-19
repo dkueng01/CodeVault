@@ -1,6 +1,6 @@
 ---
 author: David Küng
-pubDatetime: 2025-05-19T15:30:00Z
+pubDatetime: 2025-05-20T11:10:00Z
 title: Understanding Tailwind CSS Through a Real-Life Example
 slug: understanding-tailwind-css-through-real-life-example
 featured: true
