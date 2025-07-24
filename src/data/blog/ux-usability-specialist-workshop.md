@@ -29,8 +29,6 @@ description: Dokumentation vom UX & Usability Specialist Workshop
 13. [Interface](#interface)
 14. [Projektablauf & Methoden](#projektablauf--methoden)
 15. [Workshop-Aufgabe: InsideOut](#workshop-aufgabe-insideout)
-16. [Content-Strategie](#content-strategie)
-17. [Visuals & Skizzen](#visuals--skizzen)
 
 ## Einleitung
 Im Rahmen des UX & Usability Specialist Workshops wurden die wichtigsten Grundlagen, Methoden und Prozesse rund um User Experience (UX) und Usability vermittelt. Ziel war es, ein tiefes Verständnis für nutzerzentrierte Produktentwicklung zu erlangen und praxisnahe Methoden kennenzulernen.
@@ -291,26 +289,6 @@ Social Media, Google Ads, Reise-Magazine
 - Conversion Rate erhöhen
 - Influencer Marketing ausbauen
 - Angebot an Package Deals erweitern
-
-### Wireframes & Skizzen
-- **Wireframes:**
-  ![Wireframing 1](image-4.png)
-- **Sketching:**
-  ![Sketching 1](sketching%201.jpeg)
-
-
-## Visuals & Skizzen
-### Peter Morville’s Facets of User Experience
-![Peter Morville's Facets of User Experience](image.png)
-
-### User Story Map Beispiel
-![User Story Map](image-1.png)
-
-### Prozess-Visualisierung
-![Analyse, Strategie, Architektur, Interaktion, Interface](image-2.png)
-
-### Projektablauf
-![Projektablauf](image-3.png)
 
 ## Weiterführende Links
 - [Laws of UX](https://lawsofux.com/)
