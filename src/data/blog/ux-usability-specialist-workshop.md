@@ -192,8 +192,6 @@ Wichtige Aspekte:
 - Wireframes und Prototypen zur Visualisierung und Testung von Interaktionen
 - Usability-Tests zur Überprüfung der Verständlichkeit und Effizienz
 
----
-
 ## Interface
 **Interface Design** beschäftigt sich mit der visuellen Gestaltung der Benutzeroberfläche.
 
