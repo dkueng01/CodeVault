@@ -27,7 +27,6 @@ description: Dokumentation vom UX & Usability Specialist Workshop
 11. [Architektur: Informationsarchitektur & Navigation](#architektur-informationsarchitektur--navigation)
 12. [Interaktion](#interaktion)
 13. [Interface](#interface)
-14. [Projektablauf & Methoden](#projektablauf--methoden)
 15. [Workshop-Aufgabe: InsideOut](#workshop-aufgabe-insideout)
 
 ## Einleitung
@@ -62,8 +61,6 @@ Dazu gehören:
 **Norm:** DIN ISO 9241-210
 
 ### Peter Morville’s Facets of User Experience
-![Peter Morville's Facets of User Experience](image.png)
-
 - **Useful**: Das Produkt erfüllt einen Zweck.
 - **Usable**: Es ist einfach zu bedienen.
 - **Desirable**: Es ist ansprechend und weckt Begehrlichkeit.
@@ -211,9 +208,6 @@ Wichtige Aspekte:
 
 **Ziel:**
 Ein ansprechendes, konsistentes und intuitives Erscheinungsbild, das die Nutzerführung unterstützt und die Markenidentität widerspiegelt.
-
-## Projektablauf & Methoden
-![Projektablauf](image-3.png)
 
 **Typischer Ablauf:**
 1. Kick-Off Workshop
